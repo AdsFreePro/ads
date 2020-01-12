@@ -1,4 +1,12 @@
 <script src="script.js"></script>
+<script type='text/javascript'>$(document).ready(function() {
+    $("a[href^='http://']").each(function() {
+        if (this.href.indexOf(location.hostname) == -1) $(this).attr("target", "_blank");
+    });
+    $("a[href^='https://']").each(function() {
+        if (this.href.indexOf(location.hostname) == -1) $(this).attr("target", "_blank");
+    });
+}); </script>
 <script type="text/javascript">
 // تفعيل اختصار روابط التلقائي
 var autoshort = true; // false & true
