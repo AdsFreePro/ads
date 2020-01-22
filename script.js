@@ -29,8 +29,8 @@ if (MySite_ads == 4) {
   
 }
 if (type=="img"){
-document.write('<a href=" ' + url + ' target="_blank""><img src=" ' + img + ' " width="98%"/></a><b>Ads Free Pro</b>');
+document.write('<a href=" ' + url + '"target="_blank"><img src=" ' + img + ' " width="98%"/></a>');
 }
 if (type=="txt"){
-document.write('<center><a href=" ' + url + ' target="_blank""> ' + txt + ' </a></center><b>Ads Free Pro</b>');
+document.write('<center><a href=" ' + url + '" target="_blank"> ' + txt + ' </a></center>');
 }
