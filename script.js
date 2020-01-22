@@ -30,8 +30,8 @@ if (MySite_ads == 4) {
   
 }
 if (type=="img"){
-document.write('<a href=" ' + url + ' "><img src=" ' + img + ' " width="98%"/></a>');
+document.write('<a href=" ' + url + ' target="_blank""><img src=" ' + img + ' " width="98%"/></a>');
 }
 if (type=="txt"){
-document.write('<center><a href=" ' + url + ' "> ' + txt + ' </a></center>');
+document.write('<center><a href=" ' + url + ' target="_blank""> ' + txt + ' </a></center>');
 }
