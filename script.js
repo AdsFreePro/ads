@@ -25,8 +25,7 @@ if (MySite_ads == 3) {
 if (MySite_ads == 4) {
 	type="txt";
   txt="مدونة اعرف الان";
-  url="https://go.arabclicks.com/aff_c?offer_id=41&aff_id=2140";
-  
+  url="https://i-know-now-plus.blogspot.com/";
   
 }
 if (type=="img"){
