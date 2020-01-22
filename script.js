@@ -6,7 +6,7 @@ MySite_ads += 1;
 if (MySite_ads == 1) {
   type="txt";
   txt="ضع اعلانك هنا مجانا";
-  url="  ";
+  url="https://www.facebook.com/101174394637384";
   
 }
 if (MySite_ads == 2) {
