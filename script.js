@@ -10,7 +10,7 @@ if (MySite_ads == 1) {
   
 }
 if (MySite_ads == 2) {
-	type="img";
+	type="txt";
   txt="ستندم اذا لم تقرا هذا ";
 	url="http://onvictinitor.com/afu.php?zoneid=3046086";
 }
