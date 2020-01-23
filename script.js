@@ -11,9 +11,8 @@ if (MySite_ads == 1) {
 }
 if (MySite_ads == 2) {
 	type="img";
-  img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpfse2bi_kAYDQeILgsrCU3B62JFLclUAS2OyEdwWrBiJENMKv";
-  url="https://go.arabclicks.com/aff_c?offer_id=41&aff_id=2140";
-  
+  txt="ستندم اذا لم تقرا هذا ";
+	url="http://onvictinitor.com/afu.php?zoneid=3046086";
 }
 if (MySite_ads == 3) {
 	type="img";
