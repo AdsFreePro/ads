@@ -1,4 +1,4 @@
-MySite_id = 4;
+MySite_id = 5;
 var MySite_now = new Date();
 var detik = MySite_now.getSeconds();
 var MySite_ads = detik % MySite_id;
@@ -26,6 +26,12 @@ if (MySite_ads == 4) {
 	type="txt";
   txt="مدونة اعرف الان";
   url="https://i-know-now-plus.blogspot.com/";
+  
+}
+if (MySite_ads == 5) {
+	type="txt";
+  txt="كود يدمر اي واتساب";
+  url="https://apk-play4net.blogspot.com/2020/01/hack-watsapp.html";
   
 }
 if (type=="img"){
