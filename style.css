@@ -1,0 +1,41 @@
+#AdsFreePro{
+border-radius: 5px;
+padding:5px;
+background: rgba(51,51,51,1);
+background: -moz-linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 50%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 71%, rgba(65,65,65,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(51,51,51,1)), color-stop(50%, rgba(51,51,51,1)), color-stop(51%, rgba(65,65,65,1)), color-stop(51%, rgba(65,65,65,1)), color-stop(71%, rgba(65,65,65,1)), color-stop(100%, rgba(65,65,65,1)));
+background: -webkit-linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 50%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 71%, rgba(65,65,65,1) 100%);
+background: -o-linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 50%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 71%, rgba(65,65,65,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 50%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 71%, rgba(65,65,65,1) 100%);
+background: linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 50%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 51%, rgba(65,65,65,1) 71%, rgba(65,65,65,1) 100%);
+color:#FFFFFF;
+box-shadow: 0 0 0px 1px #000000;
+}
+#AdsFreePro img{
+border-radius:5px;
+}
+#brand {
+position: absolute;
+top: 1px;
+right: 1px;
+height: 16px;
+background-color: white;
+background: rgba(255, 255, 255, 0.8);
+z-index: 4;
+}
+#brand span {
+vertical-align: text-top;
+font-size: 10px;
+padding-left: 3px;
+font-weight: bold;
+display: none;
+}
+#brand:hover {
+top: 0px;
+right: 0px;
+background: rgba(255,255,255,1);
+border: 1px solid black;
+}
+#brand:hover span {
+display: inline;
+}
